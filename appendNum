@@ -1,0 +1,2 @@
+# Append a single digit number after your wordlist
+hashcat --stdout -r append_num_upper_lower.rule -r append_num_upper_lower.rule wordlist.txt

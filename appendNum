@@ -1,2 +1,4 @@
 # Append a single digit number after your wordlist
 hashcat --stdout -r append_num_upper_lower.rule -r append_num_upper_lower.rule wordlist.txt
+
+hashcat -a 6 psswrd.txt ?d?d?d?d --stdout --increment > output_wordlist.txt
